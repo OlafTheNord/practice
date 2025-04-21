@@ -42,7 +42,7 @@ FROM customers
 UNION
 SELECT country
 FROM suppliers
-ORDER BY country ASC;
+ORDER BY country;
 
 -- 8. Выбрать такие страны в которых "зарегистированы" одновременно и заказчики и поставщики и работники.
 SELECT country
